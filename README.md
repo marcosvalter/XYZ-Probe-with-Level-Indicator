@@ -13,3 +13,31 @@ How to use:
   - The Z position is made by calibrating the stylus position with the reference plane. For example, with the stylus almost horizontal, touch the reference surface till zero. Then you touch the surface to be mesured, and the Macro will calculate for you.
   
 You must adjust the line #305 for your current set.
+
+Example 1:
+
+G65 P8813 X0 Y0 Z0 S54
+
+- Sets X, Y and Z to zero on G54
+
+
+Example 2:
+
+G65 P8813 X10 Y-10 Z0 S1
+
+- Sets the upper left corner as X/Y zero point and Z to zero on G54 P1
+
+
+Example 3:
+
+G65 P8813 Z10 S54
+
+- Sets Z to 10 on G54
+
+
+
+Example 4:
+
+G65 P8813 H1
+
+- Display help messages.
